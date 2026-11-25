@@ -1,0 +1,20 @@
+# 基于淘宝用户行为日志的大数据分析与转化漏斗系统 —— 依赖清单
+# 安装：pip install -r requirements.txt
+
+# 数据处理
+pandas>=2.0
+numpy>=1.24
+
+# 数据库访问（SQLAlchemy + PyMySQL 驱动）
+SQLAlchemy>=2.0
+PyMySQL>=1.1
+
+# 可视化与看板
+plotly>=5.18
+streamlit>=1.30
+
+# 机器学习（用户聚类与购买预测板块）
+scikit-learn>=1.3
+
+# 测试
+pytest>=8.0

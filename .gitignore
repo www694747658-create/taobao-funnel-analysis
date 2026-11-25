@@ -1,0 +1,36 @@
+# ============================================================
+# 大体积数据（GitHub 单文件 100 MB 硬限制，勿提交）
+# ------------------------------------------------------------
+UserBehavior.csv
+datasets/split_*.csv
+
+# 由原始数据生成 / 缓存的中间产物
+output/sql_cache/
+output/_build_*.doc
+output/*.log
+
+# Python 运行缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地敏感配置（真实密钥 / 密码，绝不入库）
+.streamlit/secrets.toml
+
+# IDE 与本地环境
+.idea/
+.vscode/
+.screenshots/
+node_modules/
+.venv/
+venv/
+
+# 本地私有备份 / 临时文件（含原始个人信息，仅留本机，勿上传）
+_local_backup/
+_tmp_*/
+
+# 系统 / 编辑器临时文件
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
